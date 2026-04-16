@@ -1,12 +1,18 @@
 {
-  "name": "backend",
+  "name": "attendance-portal-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend API for the Employee Attendance Portal",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "attendance",
+    "postgresql",
+    "express",
+    "sequelize"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
